@@ -27,4 +27,10 @@ html {
     box-sizing: inherit;
   }
 
-header {background-image: url("images\promo_iphone5s.jpg"); background-color: brown;}
+header {
+    
+    background-image: url("images/expedition_hero.jpg");
+    width: 1440px;
+    margin: 0 auto;
+    height: 538px;
+}
