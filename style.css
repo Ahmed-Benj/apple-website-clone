@@ -27,10 +27,43 @@ html {
     box-sizing: inherit;
   }
 
-header {
-    
-    background-image: url("images/expedition_hero.jpg");
-    width: 1440px;
-    margin: 0 auto;
-    height: 538px;
+header {    
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.image0{
+  background-image: url("images/expedition_hero.jpg");
+  width: 1440px;
+  height: 538px;
+}
+
+.image1{
+  background-image: url("images/promo_iphone5s.jpg");
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 200px;
+}
+
+.image2{
+  background-image: url("images/promo_iphone5c.jpg");
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 200px;
+}
+
+.image3{
+  background-image: url("images/promo_30_years.jpg");
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 200px;
+}
+
+.image4{
+  background-image: url("images/promo_supplier_responsibility.jpg");
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 200px;
 }
