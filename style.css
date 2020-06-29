@@ -1,69 +1,244 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 html {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-header {    
+header {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 1440px;
+  width: 1344px;
+  position: relative;
 }
 
-.image0{
+nav {
+  position: absolute;
+  top: 3rem;
+  left: 12rem;
+  width: 75%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  padding: 2rem;
+  font-size: larger;
+  color: white;
+  background-color:darkgray;
+  cursor: pointer;
+  border-right: 1px solid gray;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.icon{
+  position: absolute;
+  top: 0;
+  right: 10rem;
+  top: 2.3rem;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+}
+
+.image0 {
   background-image: url("images/expedition_hero.jpg");
   width: 1440px;
   height: 538px;
 }
 
-.image1{
+.image1 {
   background-image: url("images/promo_iphone5s.jpg");
   background-repeat: no-repeat;
   width: 25%;
   height: 200px;
 }
 
-.image2{
+.image2 {
   background-image: url("images/promo_iphone5c.jpg");
   background-repeat: no-repeat;
   width: 25%;
   height: 200px;
 }
 
-.image3{
+.image3 {
   background-image: url("images/promo_30_years.jpg");
   background-repeat: no-repeat;
   width: 25%;
   height: 200px;
 }
 
-.image4{
+.image4 {
   background-image: url("images/promo_supplier_responsibility.jpg");
   background-repeat: no-repeat;
   width: 25%;
   height: 200px;
+}
+
+.text {
+  position: absolute;
+  left: 10rem;
+  top: 10rem;
+}
+
+#main-txt {
+  font-size: 6rem;
+  font-weight: lighter;
+  color: white;
+}
+
+#sub-txt {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.sub-heading :hover {
+  text-decoration: underline;
+  color: white;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+
+}
+
+footer ul li{
+  font-size: 13.3344px;
+  font-family: "Times New Roman";
+}
+
+.footer1{
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.footer2{
+  margin: 10px 0 0 25px;
+}
+
+.footer1 li{
+  margin: 10px 0;
+}
+
+.footer2 li{
+  border-left: 1px solid #ccc;
 }
