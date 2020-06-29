@@ -126,6 +126,7 @@ nav ul li {
   color: white;
   background-color:darkgray;
   cursor: pointer;
+  border-right: 1px solid gray;
 }
 
 a{
