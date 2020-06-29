@@ -31,7 +31,13 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 1440px;
+  width: 1344px;
+  position: relative;
+}
+
+.img{
+  display: flex;
+  flex-direction: row;
 }
 
 .image0{
@@ -66,4 +72,32 @@ header {
   background-repeat: no-repeat;
   width: 25%;
   height: 200px;
+}
+
+.text{
+  position: absolute;
+  left: 10rem;
+  top: 10rem;
+}
+
+#main-txt{
+ font-size: 6rem;
+ font-weight: lighter;
+ color: white;
+}
+
+#sub-txt{
+  font-size: 1.5rem;
+  color: white;
+}
+
+.sub-heading{
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.sub-heading :hover{
+  text-decoration: underline;
+  color: white;
 }
