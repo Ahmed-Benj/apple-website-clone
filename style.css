@@ -115,18 +115,20 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-evenly;
+  display: flex;
+    justify-content: space-evenly;
+    padding: 9px;
+    background-color: darkgray;
+    border-radius: 10px;
 }
 
 nav ul li {
   text-decoration: none;
   list-style: none;
   align-items: center;
-  padding: 2rem;
   font-size: larger;
   color: white;
-  background-color:darkgray;
   cursor: pointer;
-  border-right: 1px solid gray;
 }
 
 a{
