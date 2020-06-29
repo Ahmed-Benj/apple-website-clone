@@ -116,10 +116,10 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
   display: flex;
-    justify-content: space-evenly;
-    padding: 9px;
-    background-color: darkgray;
-    border-radius: 10px;
+  justify-content: space-evenly;
+  padding: 9px;
+  background-color: darkgray;
+  border-radius: 10px;
 }
 
 nav ul li {
@@ -131,12 +131,12 @@ nav ul li {
   cursor: pointer;
 }
 
-nav ul li a{
+nav ul li a {
   color: white;
   text-decoration: none;
 }
 
-.icon{
+.icon {
   position: absolute;
   top: 0;
   right: 10rem;
@@ -211,44 +211,42 @@ nav ul li a{
   color: white;
 }
 
-
-footer{
+footer {
   display: flex;
   justify-content: center;
   margin-top: 22px;
 }
 
-footer ul{
+footer ul {
   list-style: none;
   display: flex;
-
 }
 
-footer ul li{
+footer ul li {
   font-size: 13.3344px;
   font-family: "Times New Roman";
   padding: 4px;
 }
 
-.footer1{
+.footer1 {
   flex-direction: column;
   margin-right: 25px;
 }
 
-.footer2{
+.footer2 {
   margin: 10px 0 0 25px;
 }
 
-.footer2 li a{
+.footer2 li a {
   color: #08c;
   text-decoration: none;
 }
 
-.footer1 li{
+.footer1 li {
   margin: 10px 0;
 }
 
-#icon{
+#icon {
   width: 15px;
   height: 14px;
   margin-left: 4px;
