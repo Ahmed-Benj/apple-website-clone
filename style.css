@@ -83,7 +83,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -92,8 +91,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -106,20 +105,16 @@ header {
 }
 
 nav {
-  position: absolute;
-  top: 3rem;
-  left: 12rem;
+  background: linear-gradient(90deg, rgba(117, 117, 117, 1) 0%, rgba(94, 94, 94, 1) 35%, rgba(139, 139, 139, 1) 82%);
+  margin: 65px auto 0 auto;
   width: 75%;
+  border-radius: 5px;
 }
 
 nav ul {
   display: flex;
   justify-content: space-evenly;
-  display: flex;
-  justify-content: space-evenly;
   padding: 9px;
-  background-color: darkgray;
-  border-radius: 10px;
 }
 
 nav ul li {
@@ -138,7 +133,6 @@ nav ul li a {
 
 .icon {
   position: absolute;
-  top: 0;
   right: 10rem;
   top: 2.3rem;
 }
@@ -184,26 +178,38 @@ nav ul li a {
 }
 
 .text {
-  position: absolute;
-  left: 10rem;
-  top: 10rem;
+  margin: 100px auto;
+  text-align: center;
 }
 
 #main-txt {
-  font-size: 6rem;
-  font-weight: lighter;
   color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 52px;
+  font-weight: lighter;
+  height: 65px;
+  cursor: pointer;
 }
 
 #sub-txt {
-  font-size: 1.5rem;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 27px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  cursor: pointer;
+  margin-top: 25px;
+  text-align: center;
   color: white;
 }
 
 .sub-heading {
-  text-align: center;
-  font-size: 1.5rem;
+  font-size: 21px;
   color: white;
+  font-weight: 400;
+  height: 64px;
+  line-height: 18px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  cursor: pointer;
 }
 
 .sub-heading :hover {
@@ -223,8 +229,8 @@ footer ul {
 }
 
 footer ul li {
-  font-size: 13.3344px;
-  font-family: "Times New Roman";
+  font-size: 10px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   padding: 4px;
 }
 
