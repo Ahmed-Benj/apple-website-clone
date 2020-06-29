@@ -145,6 +145,7 @@ nav ul li a {
   flex-direction: row;
 }
 
+
 .image0 {
   background-image: url("images/expedition_hero.jpg");
   width: 1440px;
@@ -180,27 +181,44 @@ nav ul li a {
   height: 200px;
 }
 
+
 .text {
-  position: absolute;
+  /* position: absolute;
   left: 10rem;
-  top: 10rem;
+  top: 10rem; */
+  margin: 100px auto;
+  text-align: center;
+
 }
 
 #main-txt {
-  font-size: 6rem;
-  font-weight: lighter;
   color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 52px;
+  font-weight: lighter;
+  height: 65px;
+  cursor: pointer;
 }
 
 #sub-txt {
-  font-size: 1.5rem;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 27px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  cursor: pointer;
+  margin-top: 25px;
+  text-align: center;
   color: white;
 }
 
 .sub-heading {
-  text-align: center;
-  font-size: 1.5rem;
+  font-size: 21px;
   color: white;
+  font-weight: 400;
+  height: 64px;
+  line-height: 18px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  cursor: pointer;
 }
 
 .sub-heading :hover {
