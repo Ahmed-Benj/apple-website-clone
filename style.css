@@ -131,7 +131,7 @@ nav ul li {
   cursor: pointer;
 }
 
-a{
+nav ul li a{
   color: white;
   text-decoration: none;
 }
@@ -152,6 +152,7 @@ a{
   background-image: url("images/expedition_hero.jpg");
   width: 1440px;
   height: 538px;
+  background-repeat: no-repeat;
 }
 
 .image1 {
@@ -226,6 +227,7 @@ footer ul{
 footer ul li{
   font-size: 13.3344px;
   font-family: "Times New Roman";
+  padding: 4px;
 }
 
 .footer1{
@@ -237,10 +239,18 @@ footer ul li{
   margin: 10px 0 0 25px;
 }
 
+.footer2 li a{
+  color: #08c;
+  text-decoration: none;
+}
+
 .footer1 li{
   margin: 10px 0;
 }
 
-.footer2 li{
-  border-left: 1px solid #ccc;
+#icon{
+  width: 15px;
+  height: 14px;
+  margin-left: 4px;
+  margin-top: 1px;
 }
