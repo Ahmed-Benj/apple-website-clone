@@ -135,13 +135,6 @@ nav ul li {
   cursor: pointer;
 }
 
-/* nav ul li :hover{
-  padding-right: 10px;
-  border-right: 1px solid silver;
-  /* padding-left: 10px;
-  border-left: 1px solid silver; 
-} */
-
 nav ul li a {
   color: white;
   text-decoration: none;
