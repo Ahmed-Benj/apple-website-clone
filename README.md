@@ -1,6 +1,6 @@
-# apple-website-clone
+# apple website clone
 
-# PROJECT: PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS (Microverse Collaborative Project)
+# PROJECT : BUILDING WITH BACKGROUNDS AND GRADIENTS (Microverse Collaborative Project)
 
 > This project consists on using of plain HTML and CSS to create a website.
 > A reproduction of "apple" website was used to complete the project (https://web.archive.org/web/20140301004610/http://www.apple.com/)
@@ -19,7 +19,7 @@ gradient
 - CSS
 
 ## Live Demo
-- [Live Demo Link](https://raw.githack.com/Ahmed-Benj/apple-website-clone/tree/development)
+- [Live Demo Link](https://ahmed-benj.github.io/apple-website-clone/)
 
 #### Prerequisites
 - Browser
