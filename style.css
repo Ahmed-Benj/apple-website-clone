@@ -105,7 +105,7 @@ header {
 }
 
 nav {
-  background-image: linear-gradient(90deg, rgba(117, 117, 117, 1) 0%, rgba(94, 94, 94, 1) 35%, rgba(139, 139, 139, 1) 82%);
+  background-image: linear-gradient(#888888,#5F5F5F,#6D6D6D);
   margin: 65px auto 0 auto;
   width: 75%;
   border-radius: 5px;
