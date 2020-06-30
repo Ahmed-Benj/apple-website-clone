@@ -110,10 +110,14 @@ header {
 }
 
 nav {
-  background-image: linear-gradient(#575757, #383838, #575757);
+  background-image: linear-gradient(#8b8b8b, #5f5f5f, #8b8b8b);
   margin: 65px auto 0 auto;
   width: 75%;
   border-radius: 5px;
+}
+
+nav:hover{
+  background-image: linear-gradient(#575757, #383838, #575757);
 }
 
 nav ul {
@@ -130,6 +134,13 @@ nav ul li {
   color: white;
   cursor: pointer;
 }
+
+/* nav ul li :hover{
+  padding-right: 10px;
+  border-right: 1px solid silver;
+  /* padding-left: 10px;
+  border-left: 1px solid silver; 
+} */
 
 nav ul li a {
   color: white;
